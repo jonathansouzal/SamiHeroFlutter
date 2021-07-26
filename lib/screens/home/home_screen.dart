@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: Text('Voltar a lista de heróis'),
+                child: Text('Voltar a Splash Screen'),
               ),
               Expanded(
                 child: widget.superhero == null
